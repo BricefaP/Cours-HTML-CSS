@@ -1,39 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Assets/CSS/cv.css">
-    <title>CV - Fabrice PRIEUR</title>
-</head>
-<body>
-    <header>
-        <div class="image"> 
-            <img src="../Assets/images/photo.jpg" alt="moi même">
-        </div> 
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="#diplome">Diplome</a></li>
-                <li><a href="#xp">Experience</a></li>
-                <li><a href="#langage">Langages</a></li>
+<html lang="fr">
+    <!-- <head> : Contient les métadonnées, le titre du document et le lien vers la feuille de style CSS -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Assets/CSS/cv.css">
+        <title>CV - Fabrice PRIEUR</title>
+    </head>
+    <body>
+        <!-- <header> : Comprend les informations de contact -->
+        <header>
+            <ul class="container">
+                <li>
+                    <h1>
+                        <span id="prenom">Fabrice</span>
+                        <span id="nom">Prieur</span>
+                    </h1>
+                </li>
+                <li>
+                    <strong>Adresse</strong>
+                    41 rue Emile Zola<br>59000 Lille
+                </li>
+                <li>
+                    <strong>Téléphone</strong>
+                    06.50.50.50.50
+                </li>
+                <li>
+                    <strong>Mail</strong>
+                    monmail@mail.fr
+                </li>
+                <!-- <aside> : Pour les informations secondaires comme la photo, les liens vers diplomes, expériences... -->
+                <aside>
             </ul>
-        </nav>
-        
-    </header>
-    <main>
-        <section id="diplome">
-
+            <div class="image"> 
+                <img src="../Assets/images/photo.jpg" alt="moi même">
+            </div> 
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="diplomes_formations.html" target="_blank">Diplome</a></li>
+                    <li><a href="experiences.html" target="_blank">Experience</a></li>
+                    <li><a href="#competences" target="_blank">Compétences</a></li>
+                    <li><a href="#langues" target="_blank">Langues</a></li>
+                </ul>
+                </aside>
+            </nav>
+            
+        </header>
+        <!--<main> : Divisé en trois sections  -->
+        <main>
+            <article>
+                <h2>Présentation</h2>
+                <p>J'ai 45 ans, je suis passionné par atuellement en activité depuis 22 ans à VEOLIA EAU, Je suis constamment à l'affût des dernières tendances technologiques et attiré par le développement web et web mobile. Je maîtrise la gestion de site web et en cours de formations sur les différents langages de programmation tels que HTML, CSS, JavaScript et PHP. Dynamique, autonome et doté d'un esprit d'équipe, je suis prêt à relever de nouveaux défis et à contribuer au succès de projets ambitieux.</p>
+            </article>
+            <section>
+                <article> 
+                <h2>Diplomes et Formations</h2>
+                </p>
+                    
+                    BREVET DES COLLEGES <br>
+                    BEP MSMA <br>
+                    BAC PRO MSMA <br>
+                    TOSA Excel niveau 2 <br>
+                    Certification en Gestion et communication du site internet PROWEB-CE <br>
+                </p>
+                </article>
+                
+                <!-- <section> : Pour les informations principales comme la présentation, les formations et l’expérience -->
+            </section>
+            <section>
+                <article>
+                    <h2>Expériences</h2>
+                    <p>
+                    Agent d’exploitation en station d’épuration de Berck et Cucq en
+                    alternance chez VEOLIA EAU<br>
+                    
+                    Contrôleur en Assainissement non collectif et collectif VEOLIA EAU à
+                    Bruay La Buissière<br>
+                    
+                    Technicien réseau en assainissement VEOLIA EAU à Bruay La
+                    Buissière<br>
+                    Responsable des Activités Sportives et Culturelles chez VEOLIA EAU
+                    pour la région des Hauts de France<br>
+                    Gestion du site internet PROWEB-CE (paramétrage des prestations,
+                    création de page de communication via le site internet, gestion des
+                    ventes de billetteries, voyages, spectacles, suivi de facturations, …)<br>
+                    
+                    Gestion des comptes d’établissement (publication de compte à la
+                    DIRECCTE, prélèvements, trésorerie générale, remboursement des
+                    notes de frais…)<br> 
+                    </article>
+            </p>
+                    </section>
+            <section id="competences">
+                <article>
+                    <h2>Compétences</h2>
+                    Office 365<br>
+                    Outils google<br>
+            </article> 
         </section>
-        <section id="xp">
-
-        </section>
-        <section id="langage">
-
-        </section>
-    </main>
-    <footer>
-
-    </footer>
-</body>
-</html>
+        <section id="langues">
+            <article>
+                <h2>Langues</h2>
+                Français<br>
+                Anglais A1<br>
+        </article> 
+            
+            
+            
+            </section>
+            </main>
+            <!-- <footer> : Contient des liens vers les réseaux sociaux -->
+            <footer>
+                <img src="../Assets/images/facebook.png" alt="logo Facebook">
+                <br>
+                <a href="#">Fabrice Prieur</a>
+            </footer>
+            </body>
+        </html>
